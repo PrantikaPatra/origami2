@@ -1,0 +1,35 @@
+h1{
+    color:yellow;
+}
+
+.header{
+    background-color: #b8b8b8;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content:space-between;
+    flex-shrink:3;
+    felx-basis:auto;
+    flex-flow:column;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{text-align: left}
+
+body{
+    background-color: white
+}
+
+.item:hover img{
+    opacity:0.5;
+}
+
+
